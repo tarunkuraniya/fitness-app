@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f1f1;
+}
+
+header {
+  background: #010a3a;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em;
+}
+
+.card {
+  background: white;
+  padding: 1em;
+  margin: 1em 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  width: 100%;
+}
