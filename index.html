@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Fitness App</h1>
+    <nav>
+      <a href="#login">Login</a>
+      <a href="#workouts">Workouts</a>
+      <a href="#diet">Diet</a>
+      <a href="#progress">Progress</a>
+      <a href="#social">Community</a>
+    </nav>
+  </header>
+
+  <section id="login">
+    <h2>User Login</h2>
+    <div class="card">
+      <form>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" required />
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password" required />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="workouts">
+    <h2>Workout Plans</h2>
+    <div class="card">
+      <h3>Beginner Plan</h3>
+      <p>Push-ups, squats, planks. 3x a week.</p>
+    </div>
+    <div class="card">
+      <h3>Advanced Plan</h3>
+      <p>Deadlifts, pull-ups, HIIT. 5x a week.</p>
+    </div>
+  </section>
+
+  <section id="diet">
+    <h2>Diet Tracking</h2>
+    <div class="card">
+      <form>
+        <label>Food:</label>
+        <input type="text" placeholder="e.g. Banana" />
+        <label>Calories:</label>
+        <input type="number" placeholder="e.g. 100" />
+        <button type="submit">Log Meal</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="progress">
+    <h2>Progress Charts</h2>
+    <div class="card">
+      <canvas id="progressChart" width="400" height="200"></canvas>
+    </div>
+  </section>
+
+  <section id="social">
+    <h2>Community</h2>
+    <div class="card">
+      <h3>John's Progress</h3>
+      <p>Lost 5kg in 2 months! 💪</p>
+      <button>Like</button>
+      <button>Comment</button>
+    </div>
+    <div class="card">
+      <form>
+        <label>Share Your Progress:</label>
+        <textarea rows="3" placeholder="What's new?"></textarea>
+        <button type="submit">Post</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
